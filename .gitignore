@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+firebase-service-account.json
+chroma_data/
+sql_app.db
+.pytest_cache/
+*.egg-info/
