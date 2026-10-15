@@ -24,7 +24,12 @@ class Settings:
     ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
     CHROMA_PERSIST_DIR: str = os.getenv("CHROMA_PERSIST_DIR", "./chroma_data")
 
+    # Pinecone Vector DB
+    PINECONE_API_KEY: str = os.getenv("PINECONE_API_KEY", "")
+    PINECONE_INDEX_NAME: str = os.getenv("PINECONE_INDEX_NAME", "learn-buddy")
+
     # OCR Config
     TESSERACT_CMD: str = os.getenv("TESSERACT_CMD", "")
+
 
 settings = Settings()

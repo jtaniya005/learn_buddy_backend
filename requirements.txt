@@ -20,3 +20,5 @@ langgraph
 langchain
 chromadb
 openai
+pinecone-client
+sentence-transformers
